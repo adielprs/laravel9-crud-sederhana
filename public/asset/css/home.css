@@ -1,0 +1,91 @@
+nav{
+    height: 85px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    box-shadow: 0px 2px 8px 0px rgb(44, 34, 34);
+    justify-content: space-between;
+
+}
+
+.menu ul{
+    float: left;
+    padding-bottom: 0px;
+}
+.menu ul li{
+    list-style: none;
+    padding: 0px 20px 0px 20px;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero-container{
+    height: 470px;
+    padding: 0 10px;
+    display: flex;
+}
+.hero-container h1{
+    font-size: 60px;
+    width: 300px;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.hero-container p{
+    font-size: 20px;
+    color: var(--gray);
+    padding-left: 10px;
+}
+.hero-container > img{
+    height: 445px;
+    width: 45%;
+    float: right;
+    align-self: center;
+    padding-left: 30%;
+    padding-right: 15%;
+}
+.content-container{
+    display: grid;
+    min-height: 400px;
+    padding: 0 10%;
+    margin: 40px 0;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.content-container .card{
+    width: 100%;
+}
+.card{
+    box-shadow: 0px 2px 8px 0px;
+    transform: 0.3s;
+}
+.card:hover{
+    box-shadow: 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.card > .card-body{
+    padding: 20px;
+}
+.card > img{
+    height: 240px;
+    width: 100%;
+    object-fit: fill;
+}
+.card h3{
+    font-size: 30px;
+    margin: 00 15px 0;
+}
+.card p{
+    color: var(--gray);
+    font-size: 16px;
+}
+.card > .card-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
